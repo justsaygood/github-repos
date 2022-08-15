@@ -1,6 +1,4 @@
-
 const inputSearch = document.querySelector('.repositories__search');
-const repositoriesList = document.querySelector('.repositories__list');
 const repositoriesDatalist = document.querySelector('.repositories__datalist');
 
 let searchTimer;
