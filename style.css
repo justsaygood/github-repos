@@ -55,7 +55,7 @@ body {
     box-shadow: 1px 1px 10px 1px #6496ed;
 }
 
-.repositories__datalist {
+.repositories__data {
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -86,7 +86,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    margin-top: 110px;
+    margin-top: 120px;
     padding: 0;
  }
 
@@ -101,19 +101,23 @@ body {
     transition: max-height 0.5s, transform 1s, padding 1s, margin 1s;
     transform-origin: 50% 0;
     padding: 10px 20px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
  }
-
+.repositories__item:hover {
+    box-shadow: 1px 1px 8px 1px #696969;
+    transition-duration: 0.3s;
+}
 .repositories__span {
     font-family: "Source Sans";
+    font-size: 20px;
     font-weight: 400;
-    margin-left: 110px;
+    margin-left: 145px;
+    color: #4682B4;
 }
 .repositories__span::before {
-    font-family: "Source Sans";
-    font-weight: 300;
     position: absolute;
-    left: 10px;
+    left: 15px;
+    color: #696969;
 }
 
 .repositories__name::before {
@@ -136,14 +140,14 @@ body {
 
 .repositories__button--close {
     position: absolute;
-    top: 20px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
+    top: 24px;
+    right: 12px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: #B0E0E6;
     background-image: url('/img/btn-close.png');
-    background-size: 30px 30px;
+    background-size: 35px 35px;
 }
 .repositories__button--close:hover {
     box-shadow: 1px 1px 10px 1px #4682B4;
@@ -152,7 +156,7 @@ body {
 
 .repositories__error {
     justify-self: center;
-    color: #6496ed;
+    color: #4682B4;
     font-weight: 700;
     padding: 20px;
 }
