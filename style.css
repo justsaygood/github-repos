@@ -146,7 +146,7 @@ body {
     height: 35px;
     border-radius: 50%;
     background-color: #B0E0E6;
-    background-image: url('/img/btn-close.png');
+    background-image: url('img/btn-close.png');
     background-size: 35px 35px;
 }
 .repositories__button--close:hover {
