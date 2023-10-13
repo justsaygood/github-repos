@@ -1,2 +1,4 @@
-# JS_4.2.7
-https://justsaygood.github.io/JS_4.2.7/
+# Vanilla JS github-repositories search bar
+
+Published:
+https://justsaygood.github.io/github-repos/
